@@ -183,17 +183,16 @@ function generateHTML(data) {
              <h6 class="links-nav">Currently@ ${data.comapny}</h6>
              <div class="row">
              <div class="col">
-             <a class="links-nav" href="https://www.google.com/maps/search/?api=AIzaSyCZyEDS1NvxusX6kIbarqpDTIB72YzCV8k&query=${data.location}" target="_blank"> <i class="fas fa-location-arrow"></i>${data.location} &nbsp;</a>
+             <a class="links-nav" href="https://www.google.com/maps/place/${data.location}/@37.7589061,-122.3753945,11z/data=!3m1!4b1!4m5!3m4!1s0x80857d8b28aaed03:0x71b415d535759367!8m2!3d37.8043514!4d-122.2711639?hl=en" target="_blank"> <i class="fas fa-location-arrow"></i>${data.location} &nbsp;</a>
              <a class="links-nav"  href="${data.html_url}" target="_blank"> <i class="fab fa-github-alt"></i>Github &nbsp;</a>
              <a class="links-nav" href="${data.blog}" target="_blank"><i class="fas fa-rss"></i>Blog &nbsp;</a>
              </div>
                  </div>
                     </div>
-                    </div>
     <div class="main">
         <div class="container">
             <div class="row">
-            <h3 class="col">${data.bio}</h3>
+            <h1 class="col">${data.bio}</h1>
             </div>
             <div class="row">
             <div class="card col">
@@ -217,8 +216,8 @@ function generateHTML(data) {
         </div>
     </div>
     </div>
-    <div class="wrapper">
-        </div>
+    </div>
+    
     
 </body>
 </html>`
