@@ -2,7 +2,7 @@
 ## User Story
 - Using node.js the program will take the user's github username and there favorite color. Using this information this we will create a protfolio for the user.
 ## Site Picture
-![Auto Port]()
+![Auto Port](/assets/Auto-port.gif)
 
 
 ## Technologies Used
